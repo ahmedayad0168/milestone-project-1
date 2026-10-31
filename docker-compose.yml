@@ -1,0 +1,24 @@
+# Both services load the retrieval models (~1 GB RAM each). Run only the one you need if memory is tight:
+#   docker compose up -d --build ui      |      docker compose up -d --build api
+services:
+  api:
+    build: .
+    container_name: fincon_rag_api
+    restart: unless-stopped
+    ports: ["8000:8000"]
+    env_file: [.env]
+    volumes:
+      - ./data:/app/data
+      - ./chroma_db:/app/chroma_db
+    command: uvicorn api.app:app --host 0.0.0.0 --port 8000
+
+  ui:
+    build: .
+    container_name: fincon_rag_ui
+    restart: unless-stopped
+    ports: ["8501:8501"]
+    env_file: [.env]
+    volumes:
+      - ./data:/app/data
+      - ./chroma_db:/app/chroma_db
+    command: streamlit run ui/streamlit_app.py --server.port 8501 --server.address 0.0.0.0

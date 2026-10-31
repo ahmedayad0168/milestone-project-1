@@ -1,0 +1,86 @@
+[
+  {
+    "id": "seed_sec_cyber",
+    "title": "SEC cybersecurity incident disclosure: Form 8-K Item 1.05 and Regulation S-K Item 106",
+    "content": "Under the SEC cybersecurity disclosure rules, a registrant must disclose a material cybersecurity incident on Form 8-K Item 1.05 within four business days after it determines that the incident is material. The four-business-day clock starts at the materiality determination, not at discovery of the incident, but the determination must be made without unreasonable delay after discovery. The Item 1.05 filing must describe the material aspects of the nature, scope and timing of the incident and its material impact or reasonably likely material impact on the registrant, including its financial condition and results of operations. A disclosure may be delayed only if the U.S. Attorney General determines that immediate disclosure would pose a substantial risk to national security or public safety. Separately, Regulation S-K Item 106 requires annual (Form 10-K) disclosure of the registrant's processes for assessing, identifying and managing material cybersecurity risks, the board of directors' oversight of those risks, and management's role and expertise in managing them.",
+    "standard": "SEC",
+    "topic": "cybersecurity"
+  },
+  {
+    "id": "seed_ifrs_s2_scopes",
+    "title": "IFRS S2 greenhouse gas emissions: Scope 1, Scope 2 and Scope 3",
+    "content": "IFRS S2 Climate-related Disclosures requires an entity to disclose its absolute gross greenhouse gas emissions, measured in accordance with the GHG Protocol Corporate Standard and expressed in metric tonnes of CO2 equivalent, separately for Scope 1, Scope 2 and Scope 3. Scope 1 emissions are direct emissions from sources owned or controlled by the entity. Scope 2 emissions are indirect emissions from the generation of purchased or acquired electricity, steam, heating or cooling consumed by the entity; the entity discloses its location-based Scope 2 emissions and provides information about contractual instruments. Scope 3 emissions are all other indirect emissions that occur in the entity's value chain, both upstream and downstream, and are grouped into 15 categories under the GHG Protocol, including Category 15 (investments), which covers financed emissions for financial institutions. IFRS S2 provides transitional relief so that an entity is not required to disclose Scope 3 emissions in its first annual reporting period.",
+    "standard": "IFRS S2",
+    "topic": "sustainability"
+  },
+  {
+    "id": "seed_csrd_scope",
+    "title": "EU CSRD scope, thresholds and double materiality",
+    "content": "The EU Corporate Sustainability Reporting Directive (CSRD, Directive 2022/2464) requires in-scope companies to report under the European Sustainability Reporting Standards (ESRS). Under the original CSRD scope, a large undertaking is in scope if it meets at least two of three criteria: more than 250 employees, more than EUR 50 million net turnover, or more than EUR 25 million balance sheet total. Wave 1 covered companies already subject to the Non-Financial Reporting Directive; Wave 2 covers other large companies that were not previously subject to it. Reporting follows the double materiality principle: a topic is material if it is material from an impact perspective (the company's effects on people and the environment), from a financial perspective (effects on the company's development, performance and position), or both. Sustainability information is subject to limited assurance initially. NOTE: the EU 'Omnibus' simplification package postponed Wave 2 and proposed narrower scope thresholds, so always verify the current in-force thresholds and timeline before relying on this summary.",
+    "standard": "CSRD",
+    "topic": "sustainability"
+  },
+  {
+    "id": "seed_basel_output_floor",
+    "title": "Basel III Endgame: capital output floor",
+    "content": "The Basel III final reforms (often called Basel III Endgame or Basel IV) introduce an output floor that limits the capital benefit banks can obtain from internal models. Total risk-weighted assets (RWA) must be at least 72.5% of the RWA calculated using the standardised approaches. In other words, RWA = max(RWA from internal models, 72.5% x RWA from standardised approaches). The floor is phased in gradually, and jurisdictions implement it on their own timelines; the EU CRR3 phase-in runs through 2030. The floor is intended to reduce excessive variability in risk-weighted assets and improve comparability of capital ratios such as the CET1 ratio across banks.",
+    "standard": "Basel III",
+    "topic": "regulatory capital"
+  },
+  {
+    "id": "seed_frtb",
+    "title": "FRTB market risk framework: Expected Shortfall",
+    "content": "The Fundamental Review of the Trading Book (FRTB) replaces Value-at-Risk with Expected Shortfall (ES) as the risk measure for market risk capital under the internal models approach. Expected Shortfall is calibrated at a 97.5% confidence level and measures the average loss in the tail beyond that quantile. FRTB also introduces liquidity horizons ranging from 10 to 120 days, so that less liquid risk factors attract higher capital. Trading desks must pass profit-and-loss attribution tests and backtesting to be eligible for the internal models approach; desks that fail must use the revised standardised approach, which is based on sensitivities, a default risk charge and a residual risk add-on.",
+    "standard": "FRTB",
+    "topic": "market risk"
+  },
+  {
+    "id": "seed_ifrs16_ebitda",
+    "title": "IFRS 16 leases: impact on EBITDA and financial statements",
+    "content": "IFRS 16 requires lessees to recognise a right-of-use asset and a lease liability on the balance sheet for almost all leases, with optional exemptions for short-term leases (12 months or less) and leases of low-value assets. Under the previous standard IAS 17, operating lease payments were an operating expense. Under IFRS 16 the expense is replaced by depreciation of the right-of-use asset and interest on the lease liability. Because depreciation and interest are both excluded from EBITDA, reported EBITDA increases when IFRS 16 is adopted, while EBIT increases slightly and net income is typically lower in the early years of a lease. Net debt and leverage ratios rise because lease liabilities are added to debt. In the cash flow statement, the repayment of principal is shown within financing activities, which increases operating cash flow compared with IAS 17.",
+    "standard": "IFRS 16",
+    "topic": "leases"
+  },
+  {
+    "id": "seed_asc842_vs_ifrs16",
+    "title": "ASC 842 versus IFRS 16: operating lease expense and EBITDA",
+    "content": "Under US GAAP ASC 842, lessees also recognise right-of-use assets and lease liabilities for leases longer than 12 months. Unlike IFRS 16, ASC 842 keeps a dual model: operating leases continue to report a single straight-line lease expense within operating expenses, while finance leases report amortisation and interest expense separately. As a result, EBITDA under US GAAP is generally not boosted by operating leases in the way it is under IFRS 16, which makes EBITDA comparisons between IFRS and US GAAP reporters less direct.",
+    "standard": "ASC 842",
+    "topic": "leases"
+  },
+  {
+    "id": "seed_asc606",
+    "title": "ASC 606 / IFRS 15 five-step revenue recognition model",
+    "content": "ASC 606 and IFRS 15 use the same five-step model for revenue from contracts with customers: (1) identify the contract with a customer; (2) identify the performance obligations in the contract; (3) determine the transaction price; (4) allocate the transaction price to the performance obligations based on relative standalone selling prices; and (5) recognise revenue when, or as, each performance obligation is satisfied, either at a point in time or over time. Variable consideration is included in the transaction price only to the extent it is highly probable (IFRS 15) or probable (ASC 606) that a significant reversal of revenue will not occur.",
+    "standard": "ASC 606",
+    "topic": "revenue"
+  },
+  {
+    "id": "seed_ebitda_apm",
+    "title": "EBITDA is a non-GAAP alternative performance measure",
+    "content": "EBITDA (earnings before interest, taxes, depreciation and amortisation) is not a defined subtotal under IFRS or US GAAP; it is an alternative performance measure (APM) in Europe and a non-GAAP measure in the United States. Companies must define how they calculate it, apply it consistently and reconcile it to the nearest IFRS or GAAP figure, such as operating profit or net income. Controllers use EBITDA as a proxy for operating cash generation, but it ignores capital expenditure, working capital changes and lease costs treated as depreciation and interest.",
+    "standard": "APM",
+    "topic": "performance measures"
+  },
+  {
+    "id": "seed_variance",
+    "title": "Variance analysis in financial controlling: price, volume and mix",
+    "content": "Variance analysis compares actual results with budget to explain profit differences. Price variance = (actual price - budgeted price) x actual quantity. Volume variance = (actual quantity - budgeted quantity) x budgeted price (or budgeted margin when analysing profit). Mix variance isolates the effect of selling a different proportion of products than planned. A flexible budget restates the budget at actual activity so that volume effects are separated from efficiency and spending effects. A variance is favourable when it increases profit versus budget and unfavourable when it reduces it.",
+    "standard": "Controlling",
+    "topic": "variance analysis"
+  },
+  {
+    "id": "seed_working_capital",
+    "title": "Working capital metrics: DSO, DIO, DPO and the cash conversion cycle",
+    "content": "Days sales outstanding (DSO) = accounts receivable / revenue x number of days in the period. Days inventory outstanding (DIO) = inventory / cost of goods sold x days. Days payables outstanding (DPO) = accounts payable / cost of goods sold x days. The cash conversion cycle (CCC) = DIO + DSO - DPO; a shorter cycle means cash is tied up in operations for less time. Controllers track these metrics monthly to manage liquidity and to forecast operating cash flow.",
+    "standard": "Controlling",
+    "topic": "working capital"
+  },
+  {
+    "id": "seed_capex_policy_example",
+    "title": "Illustrative example: CapEx approval policy and delegation of authority (DoA)",
+    "content": "ILLUSTRATIVE EXAMPLE ONLY - replace with your organisation's policy. A capital expenditure (CapEx) request requires a business case with NPV and payback analysis. Under the example delegation of authority (DoA), requests up to USD 50,000 are approved by the department head, requests from USD 50,001 to USD 500,000 by the CFO, and requests above USD 500,000 by the board investment committee. Project overruns above 10% of the approved budget must be re-approved at the same authority level. Finance reviews post-investment performance twelve months after go-live.",
+    "standard": "Corporate policy (example)",
+    "topic": "capex"
+  }
+]

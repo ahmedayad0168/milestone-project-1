@@ -1,0 +1,39 @@
+# ── FinCon RAG: ALL dependencies in one file ──────────────────────────────────
+# Used by: Streamlit Cloud, Docker, GitHub CI and local development.
+
+# CPU-only PyTorch (the default PyPI build drags in ~2 GB of CUDA libraries).
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+
+# LLM (Google Gemini)
+google-genai>=1.0
+
+# Retrieval stack
+sentence-transformers>=3.0
+chromadb>=0.5.5,<2
+rank-bm25>=0.2.2
+langchain-text-splitters>=0.2
+spacy>=3.7
+
+# Parsing / utils
+numpy>=1.26
+pandas>=2.0
+pypdf>=4.0
+python-dotenv>=1.0
+
+# UI
+streamlit>=1.40
+
+# API
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.6
+
+# Tests
+pytest>=8.0
+httpx>=0.27
+
+# ── Optional (uncomment if you use them) ──────────────────────────────────────
+datasets>=2.16          # only for src/ingestion/load_baai_dataset.py
+groq>=0.9               # LLM_BACKEND=groq
+elasticsearch>=8.12     # USE_ELASTICSEARCH=true

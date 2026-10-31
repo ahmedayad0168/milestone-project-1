@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.local
+*.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+.ipynb_checkpoints
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated indexes (rebuilt automatically on first start)
+chroma_db/
+data/parent_docstore.json
+data/bm25_index.pkl
+data/processed/
+data/raw/*_raw_75k*.csv
+eval_report.json

@@ -1,0 +1,155 @@
+[
+  {
+    "query": "What is the deadline for filing Form 8-K Item 1.05 after a material cybersecurity incident?",
+    "ground_truth_answer": "Within four business days after the registrant determines the incident is material.",
+    "expected_keywords": [
+      "four business days",
+      "Item 1.05",
+      "material"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "When does the four-business-day clock for Item 1.05 start?",
+    "ground_truth_answer": "It starts when the company determines the incident is material, not when the incident is discovered.",
+    "expected_keywords": [
+      "determines",
+      "material",
+      "discovery"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "What are Scope 1, Scope 2 and Scope 3 emissions under IFRS S2?",
+    "ground_truth_answer": "Scope 1 is direct emissions from owned or controlled sources; Scope 2 is indirect emissions from purchased electricity, steam, heating or cooling; Scope 3 is all other indirect value chain emissions, upstream and downstream.",
+    "expected_keywords": [
+      "Scope 1",
+      "Scope 2",
+      "Scope 3",
+      "value chain"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "Is Scope 3 reporting required in the first year under IFRS S2?",
+    "ground_truth_answer": "No. IFRS S2 provides transitional relief so Scope 3 emissions need not be disclosed in the first annual reporting period.",
+    "expected_keywords": [
+      "transitional relief",
+      "Scope 3",
+      "first annual reporting period"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "What are the original CSRD size thresholds for a large undertaking?",
+    "ground_truth_answer": "At least two of: more than 250 employees, more than EUR 50 million net turnover, more than EUR 25 million balance sheet total.",
+    "expected_keywords": [
+      "250 employees",
+      "EUR 50 million",
+      "EUR 25 million",
+      "two of three"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "What does double materiality mean in the CSRD?",
+    "ground_truth_answer": "A topic is material from an impact perspective, a financial perspective, or both.",
+    "expected_keywords": [
+      "double materiality",
+      "impact",
+      "financial"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "What is the Basel III Endgame output floor percentage?",
+    "ground_truth_answer": "72.5% of the risk-weighted assets calculated under the standardised approaches.",
+    "expected_keywords": [
+      "72.5%",
+      "output floor",
+      "standardised approaches"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "What confidence level does Expected Shortfall use under FRTB?",
+    "ground_truth_answer": "97.5%.",
+    "expected_keywords": [
+      "Expected Shortfall",
+      "97.5%",
+      "FRTB"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "How does IFRS 16 affect EBITDA?",
+    "ground_truth_answer": "EBITDA increases because operating lease expense is replaced by depreciation and interest, which are both excluded from EBITDA.",
+    "expected_keywords": [
+      "EBITDA",
+      "depreciation",
+      "interest",
+      "right-of-use"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "Why is EBITDA less affected by operating leases under US GAAP ASC 842?",
+    "ground_truth_answer": "ASC 842 keeps a single straight-line operating lease expense in operating expenses, so EBITDA is not boosted as under IFRS 16.",
+    "expected_keywords": [
+      "ASC 842",
+      "straight-line",
+      "operating lease"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "What are the five steps of ASC 606 revenue recognition?",
+    "ground_truth_answer": "Identify the contract, identify performance obligations, determine the transaction price, allocate the price to the obligations, recognise revenue when or as obligations are satisfied.",
+    "expected_keywords": [
+      "contract",
+      "performance obligations",
+      "transaction price",
+      "allocate"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "How is the cash conversion cycle calculated?",
+    "ground_truth_answer": "CCC = DIO + DSO - DPO.",
+    "expected_keywords": [
+      "DIO",
+      "DSO",
+      "DPO",
+      "cash conversion cycle"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "How is price variance calculated?",
+    "ground_truth_answer": "Price variance = (actual price - budgeted price) x actual quantity.",
+    "expected_keywords": [
+      "price variance",
+      "actual price",
+      "budgeted price",
+      "actual quantity"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "Is EBITDA defined under IFRS?",
+    "ground_truth_answer": "No. EBITDA is not a defined IFRS or US GAAP subtotal; it is an alternative performance measure or non-GAAP measure that must be reconciled.",
+    "expected_keywords": [
+      "alternative performance measure",
+      "non-GAAP",
+      "reconcile"
+    ],
+    "expected_source": "fincon_seed_knowledge.json"
+  },
+  {
+    "query": "Who won the 2018 football World Cup?",
+    "ground_truth_answer": "",
+    "expected_keywords": [],
+    "expected_source": "",
+    "should_abstain": true
+  }
+]

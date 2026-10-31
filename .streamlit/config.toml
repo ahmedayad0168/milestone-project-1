@@ -1,0 +1,10 @@
+[server]
+headless = true
+fileWatcherType = "none"      # avoids torch/inspect watcher crashes and saves RAM
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#1f6feb"
